@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<script
+  src="https://code.jquery.com/jquery-1.9.1.js"
+  integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA="
+  crossorigin="anonymous"></script>
+	<title>Fetch</title>
+</head>
+<body >
+<script>
+
+	$.getJSON('json.json', function(obj){
+			var ans = obj.answer
+			var img = obj.image
+			console.log (ans)
+		});	
+</script>
+
+</body>
+</html>
